@@ -1,0 +1,66 @@
+.carousel {
+position: relative;
+width: 398px;
+background-color: #eee;
+border-radius: 15px;
+padding: 10px 40px;
+border: 1px solid #9fa5a5;
+margin: auto;
+}
+
+.gallery {
+width:390px;
+overflow: hidden;
+}
+
+.arrow {
+  padding: 0;
+  font-size: 36px;
+  line-height: 24px;
+  color: #c2c6c6;
+  display: block;
+  position: absolute;
+  
+}
+.arrow:first-of-type {
+  top: 60px;
+  left: 10px;
+  
+}
+.arrow:last-of-type {
+  top: 60px;
+  right: 10px;
+  
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  color: #535656;
+}
+
+.gallery ul {
+  height: 130px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* убрать между inline-block li лишние пробелы, которые есть в HTML */
+  /* http://davidwalsh.name/remove-whitespace-inline-block */
+
+  font-size: 0;
+  transition: transform 250ms;
+}
+
+.gallery img {
+  width: 130px;
+  height: 130px;
+  display: block;
+}
+
+.gallery li {
+  display: inline-block;
+}
